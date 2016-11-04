@@ -10,6 +10,10 @@ app.engine('html', require('atpl').__express);
 
 app.set('view engine','html');
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01406ee12c381582d22bce654737ecdab6112d2d
 // listen
 app.listen(PORT, function(){
     console.log('Ready: http://localhost:'+PORT+'/');
