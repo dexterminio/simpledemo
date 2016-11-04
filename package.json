@@ -11,7 +11,8 @@
     "body-parser":"latest",
     "bluebird":"latest",
     "mysql":"latest",
-    "knex":"latest"
+    "knex":"latest",
+    "atpl":"latest"
   },
   "repository": {
     "type": "git",
