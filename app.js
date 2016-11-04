@@ -11,7 +11,8 @@ app.engine('html', require('atpl').__express);
 app.set('view engine','html');
 
 
-
+var oProduct = require(__dirname + '/controllers/productController.js');
+oProduct.init(app);
 
 // listen in the port
 app.listen(PORT, function(){
