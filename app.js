@@ -9,7 +9,9 @@ app.use('/', express.static(__dirname + '/assets'));
 app.engine('html', require('atpl').__express);
 
 app.set('view engine','html');
-// listen
+
+
+// listen in the port
 app.listen(PORT, function(){
     console.log('Ready: http://localhost:'+PORT+'/');
 });
