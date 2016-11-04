@@ -1,0 +1,23 @@
+{
+  "name": "simpledemo",
+  "version": "1.0.0",
+  "description": "simpledemo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexterminio/simpledemo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Gustavo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dexterminio/simpledemo/issues"
+  },
+  "homepage": "https://github.com/dexterminio/simpledemo#readme"
+}
